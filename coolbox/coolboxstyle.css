@@ -1,0 +1,24 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+
+  div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center; 
+    font-size: 1.1rem;  /* HTML default font size = 16px, 16 px * 1.1 is about 17-18px*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(152, 0, 132);
+    color: greenyellow;
+    text-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    border: 1px solid rgb(91, 1, 67);
+    background-image: linear-gradient(135deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 100%);
+    box-shadow: 3px 3px 6px black, inset 2px 2px 10px white, inset -2px -2px 10px black;
+  }
